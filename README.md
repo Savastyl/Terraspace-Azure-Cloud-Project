@@ -11,13 +11,13 @@ To deploy all the infrastructure stacks:
 
 To deploy individual stacks:
 
-    terraspace up demo command deployed resource group that named dev-eastus, storage account and container.
++ __terraspace up demo__ command deployed resource group that named dev-eastus, storage account and container.
 
-    TS_ENV=qa terraspace up demo command deployed resource group that named qa-eastus, storage account and container.
++ __TS_ENV=qa terraspace up demo__ command deployed resource group that named qa-eastus, storage account and container.
 
-     ARM_LOCATION=centralus TS_ENV=qa terraspace up demo command deployed resource group that named qa-centralus, storage account and container.
++ __ARM_LOCATION=centralus TS_ENV=qa terraspace up demo__ command deployed resource group that named qa-centralus, storage account and container.
 
-    terraspace up production command deployed resource group that named production_rm1 in canadacentral
++  __terraspace up production__ command deployed resource group that named production_rm1 in canadacentral
 
 
 
